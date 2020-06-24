@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a1dbd059a692004c8c0ea9bf79ecb6a, type: 3}
+  m_Name: Dialogo SignExtend
+  m_EditorClassIdentifier: 
+  lines:
+    array:
+    - title: 
+      text: "Iniciaremos a demonstra\xE7\xE3o do caminho da dados da fun\xE7\xE3o
+        <b> add $s2, $s3, $s4 </b>\r\n"
+    - title: 
+      text: "Essa \xE9 uma instru\xE7\xE3o do tipo R. Ela realizar\xE1 uma soma entre
+        $s3, $s4  armazenar\xE1 o resultado em $s2"
+    - title: 
+      text: "Iniciaremos a demonstra\xE7\xE3o do caminho da dados da fun\xE7\xE3o
+        <b> add $s2, $s3, $s4 </b>\r\n"
+    - title: 
+      text: "O primeiro passo \xE9 separar os 32 bits. Cada parte da nossa instru\xE7\xE3o
+        ser\xE1 direcionada \xE0 uma se\xE7\xE3o do banco de registradores."
+    - title: 
+      text: 'Insira o Sign Extend no lugar indicado
+
+'
