@@ -8,8 +8,9 @@ using UnityEngine.Events;
 
 [System.Serializable]
 public struct DialogueBatch
-{
+{  
     public Dialogue dialogue;
+    public UnityEvent onDialogueStart;
     public UnityEvent onDialogueEnd;
 }
 
@@ -35,17 +36,19 @@ public class DialogueManager : MonoBehaviour
     // [SerializeField] private Dialogue[] dialogueArray;
     void Start()
     {
-
         DialogueHandler.instance.StartDialogue(dialogueArray[dialogueIndex].dialogue);
         DialogueHandler.instance.OnDialogueEnd += EndDialogue;
+        DialogueHandler.instance.OnDialogueStart += StartDialogue;
     }
 
     public void EndDialogue()
     {
-            dialogueArray[dialogueIndex].onDialogueEnd.Invoke();
+        dialogueArray[dialogueIndex].onDialogueEnd.Invoke();
+    }
 
-
-        
+    public void StartDialogue()
+    {
+        dialogueArray[dialogueIndex].onDialogueStart.Invoke();
     }
 
     public void TriggerNextDialogue()
@@ -57,13 +60,14 @@ public class DialogueManager : MonoBehaviour
             NextButton.SetActive(true);
             WaitButton.SetActive(false);
         }
+
     }
 
     public void SkipLine()
     {
         if(DialogueHandler.instance.isActive)
             DialogueHandler.instance.Skip();
-        else
+        else if(dialogueIndex < dialogueArray.Length-1)
             TriggerNextDialogue();
         
     }

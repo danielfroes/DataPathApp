@@ -15,18 +15,4 @@ MonoBehaviour:
   lines:
     array:
     - title: 
-      text: "Isso a\xED! Agora podemos obter os valores armazenados nos registradores
-        <b>$s3, $s4</b> para realizarmos nossa opera\xE7\xE3o de soma. <i>(colorir
-        os fios saindo do banco de registradores at\xE9 a entrada da ula que ainda
-        estar\xE1 vazia)</i>"
-    - title: 
       text: Arraste a ULA para o local correto para realizarmos a soma
-    - title: 
-      text: Boa! Agora vamos armazenar o resultado no registrador <>b$s2</b>
-    - title: 
-      text: "Pronto, terminamos a opera\xE7\xE3o <b>add</b> (colorir nessa parte
-        os fios at\xE9 chegar de novo no banco de registradores)\r"
-    - title: 
-      text: "Como podemos ver no desenho, foi somado 4 no valor do contador de programa
-        para passarmos para a pr\xF3xima instru\xE7\xE3o <i>(colorir os fios saindo
-        do PC)</i>"

@@ -26,16 +26,16 @@ public class DraggableSlide : MonoBehaviour,IBeginDragHandler, IDragHandler, IEn
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        if(_isPicked == true )
-        {
-            _isPicked = false;
-            picker.RemoveSlide();
-        }
+        // if(_isPicked  && _dragActive)
+        // {
+        //     _isPicked = false;
+        //     // picker.RemoveSlide();
+        // }
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        print("teste toque");
+        print(_dragActive);
         if(_dragActive)
         {
             transform.position = Input.mousePosition;
@@ -46,17 +46,19 @@ public class DraggableSlide : MonoBehaviour,IBeginDragHandler, IDragHandler, IEn
     { 
         RectTransform rectTransform = picker.transform as RectTransform;
         //Se o mouse tiver no slide picker
-
-        if(RectTransformUtility.RectangleContainsScreenPoint(rectTransform, Input.mousePosition))
-        {    
-            _isPicked = true;
-            picker.ChangeSlide(this);
-            DialogueManager.instance.TriggerNextDialogue();
-            SetDragActive(false);
-        }
-        else
+        if(_dragActive)
         {
-            GetComponent<RectTransform>().anchoredPosition = Vector3.zero; 
+            if(RectTransformUtility.RectangleContainsScreenPoint(rectTransform, Input.mousePosition))
+            {    
+                _isPicked = true;
+                picker.ChangeSlide(this);
+                DialogueManager.instance.TriggerNextDialogue();
+                SetDragActive(false);
+            }
+            else
+            {
+                GetComponent<RectTransform>().anchoredPosition = Vector3.zero; 
+            }
         }
     }
     /*

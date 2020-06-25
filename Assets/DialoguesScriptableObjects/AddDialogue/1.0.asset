@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a1dbd059a692004c8c0ea9bf79ecb6a, type: 3}
-  m_Name: 1.1- Read Reg
+  m_Name: 1.0
   m_EditorClassIdentifier: 
   lines:
     array:
@@ -23,6 +23,3 @@ MonoBehaviour:
     - title: 
       text: "O primeiro passo \xE9 separar os 32 bits. Cada parte da nossa instru\xE7\xE3o
         ser\xE1 direcionada \xE0 uma se\xE7\xE3o do banco de registradores.\n"
-    - title: 
-      text: "Duas delas para sabermos quais registradores vamos ler: <b>$s3, $s4</b>
-        <i>(colorir os fios de vermelho at\xE9 read reg 1 e 2)</i>"

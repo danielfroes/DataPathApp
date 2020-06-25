@@ -15,7 +15,6 @@ MonoBehaviour:
   lines:
     array:
     - title: 
-      text: Boa! Agora vamos armazenar o resultado no registrador <>b$s2</b>
+      text: Boa! Agora vamos armazenar o resultado no registrador <b>b$s2</b>
     - title: 
-      text: "Pronto, terminamos a opera\xE7\xE3o <b>add</b> (colorir nessa parte
-        os fios at\xE9 chegar de novo no banco de registradores)\r"
+      text: "Pronto, terminamos a opera\xE7\xE3o <b>add</b> "

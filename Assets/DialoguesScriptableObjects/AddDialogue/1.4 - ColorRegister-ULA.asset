@@ -16,6 +16,4 @@ MonoBehaviour:
     array:
     - title: 
       text: "Isso a\xED! Agora podemos obter os valores armazenados nos registradores
-        <b>$s3, $s4</b> para realizarmos nossa opera\xE7\xE3o de soma. <i>(colorir
-        os fios saindo do banco de registradores at\xE9 a entrada da ula que ainda
-        estar\xE1 vazia)</i>"
+        <b>$s3, $s4</b> para realizarmos nossa opera\xE7\xE3o de soma."
