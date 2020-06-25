@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a1dbd059a692004c8c0ea9bf79ecb6a, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  lines:
+    array:
+    - title: 
+      text: "Isso a\xED! Agora, ap\xF3s obtermos o valor de endere\xE7o armazenado
+        em $s2, vamos fazer a soma com o valor 1000 ap\xF3s a extens\xE3o para 32
+        bits."
+    - title: 
+      text: Mas antes, precisamos direcionar o valor que sai do sign extend para
+        a ULA utilizando um MUX. Arraste para o local correto

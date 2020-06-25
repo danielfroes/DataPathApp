@@ -57,7 +57,7 @@ public class TweenControler : MonoBehaviour
 
         component.GetComponent<DraggableSlide>().SetDragActive(true);
 
-        component.transform.DOPunchScale(component.transform.localScale *1.01f, 1f, 1, 0.5f);
+        component.transform.DOPunchScale(component.transform.localScale * 0.1f, 1f, 1, 0.5f);
     }
 
 }
