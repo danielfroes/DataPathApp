@@ -35,6 +35,7 @@ public class DraggableSlide : MonoBehaviour,IBeginDragHandler, IDragHandler, IEn
 
     public void OnDrag(PointerEventData eventData)
     {
+        print("teste toque");
         if(_dragActive)
         {
             transform.position = Input.mousePosition;

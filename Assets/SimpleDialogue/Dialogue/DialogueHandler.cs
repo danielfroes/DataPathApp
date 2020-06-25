@@ -51,7 +51,9 @@ namespace Fog.Dialogue
 		private Queue<DialogueLine> dialogueLines = new Queue<DialogueLine>();
 		private DialogueLine currentLine;
 		private bool isLineDone;
-		private bool isActive;
+
+		//true if the dialogue is running
+		[HideInInspector] public bool isActive;
 
 		public delegate void DialogueAction();
 		public event DialogueAction OnDialogueStart;
@@ -167,12 +169,37 @@ namespace Fog.Dialogue
 		/// <returns> IEnumerator for the Coroutine. </returns>
 		private IEnumerator FillInText()
 		{
+			string bufferTag = "";
+			bool isTag = false;
 			if(useTypingEffect)
 			{
 				foreach(var character in currentLine.Text)
-				{
-					dialogueText.text += character;
-					yield return WaitForFrames(framesBetweenCharacters);
+				{	
+					// begin tag
+					if(character == '<')
+					{
+						isTag = true;
+					}
+					
+					if(!isTag)
+					{
+						dialogueText.text += character;
+						yield return WaitForFrames(framesBetweenCharacters);
+					}
+					else	
+					{
+						bufferTag += character;
+					}
+
+					//end tag
+					if(character == '>')
+					{
+						print(bufferTag);
+						dialogueText.text += bufferTag;
+						isTag = false;
+						bufferTag = "";
+					}
+
 				}
 			}
 			else

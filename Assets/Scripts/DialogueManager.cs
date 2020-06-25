@@ -42,7 +42,10 @@ public class DialogueManager : MonoBehaviour
 
     public void EndDialogue()
     {
-        dialogueArray[dialogueIndex].onDialogueEnd.Invoke();
+            dialogueArray[dialogueIndex].onDialogueEnd.Invoke();
+
+
+        
     }
 
     public void TriggerNextDialogue()
@@ -56,4 +59,12 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+    public void SkipLine()
+    {
+        if(DialogueHandler.instance.isActive)
+            DialogueHandler.instance.Skip();
+        else
+            TriggerNextDialogue();
+        
+    }
 }
