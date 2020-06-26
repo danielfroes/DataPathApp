@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a1dbd059a692004c8c0ea9bf79ecb6a, type: 3}
+  m_Name: 1.0
+  m_EditorClassIdentifier: 
+  lines:
+    array:
+    - title: 
+      text: "As instru\xE7\xF5es do tipo J s\xE3o as instru\xE7\xF5es de jump\n"
+    - title: 
+      text: "O jump nada mais \xE9 do que uma instru\xE7\xE3o que muda o fluxo de
+        instru\xE7\xF5es a serem executadas"
+    - title: 
+      text: "Dessa forma, \xE9 uma maneira de se locomover para qualquer instru\xE7\xE3o
+        na mem\xF3ria de instru\xE7\xE3o"
+    - title: 
+      text: "os 32 bits da instru\xE7\xE3o s\xE3o organizadas da seguinte maneira: "

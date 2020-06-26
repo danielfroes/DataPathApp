@@ -37,7 +37,8 @@ public class DraggableSlide : MonoBehaviour,IBeginDragHandler, IDragHandler, IEn
     {
         print(_dragActive);
         if(_dragActive)
-        {
+        {   
+            
             transform.position = Input.mousePosition;
         }       
     }
