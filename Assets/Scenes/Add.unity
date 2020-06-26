@@ -894,7 +894,7 @@ MonoBehaviour:
   dialogueText: {fileID: 1105228534}
   useTitles: 0
   titleText: {fileID: 0}
-  dialogue: {fileID: 11400000, guid: c2510f3f271e5d54eb7b4f7b47efb95b, type: 2}
+  dialogue: {fileID: 0}
   dialogueBox: {fileID: 1214145718}
   useTypingEffect: 1
   framesBetweenCharacters: 5
@@ -926,6 +926,73 @@ MonoBehaviour:
     onDialogueEnd:
       m_PersistentCalls:
         m_Calls: []
+  - dialogue: {fileID: 11400000, guid: d97ec9d3ccb08874a83b71289d3ac604, type: 2}
+    onDialogueStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onDialogueEnd:
+      m_PersistentCalls:
+        m_Calls: []
+  - dialogue: {fileID: 11400000, guid: 2fde45b94a2408142b88c938c6d6623a, type: 2}
+    onDialogueStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onDialogueEnd:
+      m_PersistentCalls:
+        m_Calls: []
+  - dialogue: {fileID: 11400000, guid: 9e7f57bd77678f14b8d8fde743180fde, type: 2}
+    onDialogueStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onDialogueEnd:
+      m_PersistentCalls:
+        m_Calls: []
+  - dialogue: {fileID: 11400000, guid: ba38520e1b5c24d479e2ec227d581e8e, type: 2}
+    onDialogueStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onDialogueEnd:
+      m_PersistentCalls:
+        m_Calls: []
+  - dialogue: {fileID: 11400000, guid: ccc51ebff25292c4f80e514fbb59d989, type: 2}
+    onDialogueStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onDialogueEnd:
+      m_PersistentCalls:
+        m_Calls: []
+  - dialogue: {fileID: 11400000, guid: 854057e4bfda6f44080bdc48bb21b7b8, type: 2}
+    onDialogueStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onDialogueEnd:
+      m_PersistentCalls:
+        m_Calls: []
+  - dialogue: {fileID: 11400000, guid: ed61e71ac184c1e4d8c9f2e1792281d2, type: 2}
+    onDialogueStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onDialogueEnd:
+      m_PersistentCalls:
+        m_Calls: []
+  - dialogue: {fileID: 11400000, guid: cd350f5926659dd44982415faecc6a9f, type: 2}
+    onDialogueStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onDialogueEnd:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 913212396}
+          m_MethodName: ActivateDrag
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1292181467}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - dialogue: {fileID: 11400000, guid: 0689f5f6796263540a292ffd08f05e41, type: 2}
     onDialogueStart:
       m_PersistentCalls:
@@ -944,15 +1011,51 @@ MonoBehaviour:
     onDialogueEnd:
       m_PersistentCalls:
         m_Calls: []
+  - dialogue: {fileID: 11400000, guid: 31d7af4b5bd8b19498a80157b9bcb4a9, type: 2}
+    onDialogueStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onDialogueEnd:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 913212396}
+          m_MethodName: ActivateDrag
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 261890850}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - dialogue: {fileID: 11400000, guid: ba9083a227a8ed843baf384978a1fd10, type: 2}
     onDialogueStart:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 913212396}
-          m_MethodName: UnhighlightComponent
+          m_MethodName: HighlightComponent
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 194824392}
+            m_ObjectArgument: {fileID: 1781513404}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    onDialogueEnd:
+      m_PersistentCalls:
+        m_Calls: []
+  - dialogue: {fileID: 11400000, guid: 171674c4de1841e4596d7a1b1f82dc8c, type: 2}
+    onDialogueStart:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 913212396}
+          m_MethodName: HighlightComponent
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 414925853}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -963,7 +1066,7 @@ MonoBehaviour:
           m_MethodName: HighlightComponent
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 414925853}
+            m_ObjectArgument: {fileID: 723002974}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -984,247 +1087,10 @@ MonoBehaviour:
     onDialogueEnd:
       m_PersistentCalls:
         m_Calls: []
-  - dialogue: {fileID: 11400000, guid: cd350f5926659dd44982415faecc6a9f, type: 2}
-    onDialogueStart:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 913212396}
-          m_MethodName: UnhighlightComponent
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 414925853}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 913212396}
-          m_MethodName: PopupComponent
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 1046761661}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 913212396}
-          m_MethodName: ActivateDrag
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 1292181467}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-    onDialogueEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1090458897}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 791472026}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1292181471}
-          m_MethodName: SetDragActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-  - dialogue: {fileID: 11400000, guid: 171674c4de1841e4596d7a1b1f82dc8c, type: 2}
-    onDialogueStart:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1292181471}
-          m_MethodName: SetDragActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 913212396}
-          m_MethodName: HighlightComponent
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 1781513404}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 913212396}
-          m_MethodName: PopdownComponent
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 1046761661}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-    onDialogueEnd:
-      m_PersistentCalls:
-        m_Calls: []
-  - dialogue: {fileID: 11400000, guid: 31d7af4b5bd8b19498a80157b9bcb4a9, type: 2}
-    onDialogueStart:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 913212396}
-          m_MethodName: UnhighlightComponent
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 1781513404}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 913212396}
-          m_MethodName: PopupComponent
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 1515932446}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 913212396}
-          m_MethodName: ActivateDrag
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 261890850}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-    onDialogueEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1090458897}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 791472026}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 261890854}
-          m_MethodName: SetDragActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
   - dialogue: {fileID: 11400000, guid: bf726aa08bf912c46a2e6a1bd5c969d9, type: 2}
     onDialogueStart:
       m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 261890854}
-          m_MethodName: SetDragActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 913212396}
-          m_MethodName: HighlightComponent
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 723002974}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 913212396}
-          m_MethodName: PopdownComponent
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 1515932446}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-    onDialogueEnd:
-      m_PersistentCalls:
         m_Calls: []
-  - dialogue: {fileID: 11400000, guid: c2510f3f271e5d54eb7b4f7b47efb95b, type: 2}
-    onDialogueStart:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 913212396}
-          m_MethodName: UnhighlightComponent
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 723002974}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
     onDialogueEnd:
       m_PersistentCalls:
         m_Calls: []
@@ -3128,8 +2994,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 45
+  m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

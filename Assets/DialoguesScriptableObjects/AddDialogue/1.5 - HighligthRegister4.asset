@@ -10,12 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a1dbd059a692004c8c0ea9bf79ecb6a, type: 3}
-  m_Name: 1.0
+  m_Name: 1.5 - HighligthRegister4
   m_EditorClassIdentifier: 
   lines:
     array:
     - title: 
-      text: "As instru\xE7\xF5es do tipo R s\xE3o caracterizadas (com exce\xE7\xE3o
-        das opera\xE7\xF5es de shift) por somente usar registradores em suas opera\xE7\xF5es."
-    - title: 
-      text: "os 32 bits da instru\xE7\xE3o s\xE3o organizadas da seguinte maneira: "
+      text: "5 bits para o tamanho do shift que ser\xE1 dado (somente usado para
+        instru\xE7\xF5es de shift)"

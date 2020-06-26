@@ -15,7 +15,7 @@ public class DraggableSlide : MonoBehaviour,IBeginDragHandler, IDragHandler, IEn
 {
 
    
-    [SerializeField] private SlidePicker picker;
+    public SlidePicker picker;
     private bool _isPicked = false;
     private bool _dragActive = false;
 

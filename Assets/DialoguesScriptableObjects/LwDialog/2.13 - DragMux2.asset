@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a1dbd059a692004c8c0ea9bf79ecb6a, type: 3}
-  m_Name: 1.0
+  m_Name: 2.13 - DragMux2
   m_EditorClassIdentifier: 
   lines:
     array:
     - title: 
-      text: "As instru\xE7\xF5es do tipo R s\xE3o caracterizadas (com exce\xE7\xE3o
-        das opera\xE7\xF5es de shift) por somente usar registradores em suas opera\xE7\xF5es."
+      text: "Novamente, por quest\xF5es de compatibilidade com outras instru\xE7\xF5es,
+        \xE9 necess\xE1rio selecionar se o sinal \xE0 ser guardado \xE9 vindo da
+        mem\xF3ria de dados ou do resultado da ULA"
     - title: 
-      text: "os 32 bits da instru\xE7\xE3o s\xE3o organizadas da seguinte maneira: "
+      text: "Arraste o Mux para que a sele\xE7\xE3o possa ocorrer"

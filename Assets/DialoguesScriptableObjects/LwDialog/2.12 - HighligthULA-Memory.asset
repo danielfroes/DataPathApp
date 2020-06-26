@@ -10,12 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a1dbd059a692004c8c0ea9bf79ecb6a, type: 3}
-  m_Name: 1.0
+  m_Name: 2.12 - HighligthULA-Memory
   m_EditorClassIdentifier: 
   lines:
     array:
     - title: 
-      text: "As instru\xE7\xF5es do tipo R s\xE3o caracterizadas (com exce\xE7\xE3o
-        das opera\xE7\xF5es de shift) por somente usar registradores em suas opera\xE7\xF5es."
+      text: "De acordo com os sinais de controle a <b>Mem\xF3ria de dados</b> \xE9
+        informada se a opera\xE7\xE3o ser realizada \xE9 de escrita ou de leitura.
+        No nosso caso \xE9 de leitura."
     - title: 
-      text: "os 32 bits da instru\xE7\xE3o s\xE3o organizadas da seguinte maneira: "
+      text: "Assim, o resultado entra na <b>Mem\xF3ria de dados</b> e resgata o valor
+        guardado nesse endere\xE7o"

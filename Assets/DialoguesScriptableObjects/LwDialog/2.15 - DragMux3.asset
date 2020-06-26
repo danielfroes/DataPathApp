@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a1dbd059a692004c8c0ea9bf79ecb6a, type: 3}
+  m_Name: 2.15 - DragMux3
+  m_EditorClassIdentifier: 
+  lines:
+    array:
+    - title: 
+      text: "Por fim, relembrando os bits da instru\xE7\xE3o, o segundo registrador
+        que \xE9 especificado \xE9 o endere\xE7o do registrador destino"
+    - title: 
+      text: "Nas opera\xE7\xF5es de tr\xEAs registradores, como por exemplo a opera\xE7\xE3o
+        add vista anteriormente,  o segundo registrador que \xE9 especificado na
+        instru\xE7\xE3o \xE9 um operando."
+    - title: 
+      text: "Dessa forma, \xE9 preciso fazer uma ultima sele\xE7\xE3o sobre qual
+        sinal \xE9 respons\xE1vel pelo endere\xE7o do registrador destino"
+    - title: 
+      text: "Arraste o Multiplexador para o local afim de realizar a sele\xE7\xE3o
+        dos valores"

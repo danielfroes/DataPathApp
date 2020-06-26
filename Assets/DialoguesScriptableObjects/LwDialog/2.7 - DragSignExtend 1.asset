@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a1dbd059a692004c8c0ea9bf79ecb6a, type: 3}
+  m_Name: 2.7 - DragSignExtend 1
+  m_EditorClassIdentifier: 
+  lines:
+    array:
+    - title: 
+      text: "A nossa ULA \xE9 de 32 bits. Isso significa que as opera\xE7\xF5es aritim\xE9ticas
+        s\xE3o feitas com n\xFAmeros com tamanho de 32 bits"
+    - title: 
+      text: "Como a nossa constante tem o apenas 16 bits, \xE9 necess\xE1rio que
+        ela seja convertida em 32 bits para que a soma seja poss\xEDvel."
+    - title: 
+      text: "Essa \xE9 a fun\xE7\xE3o do SignExtend. Arraste o componente do SignExtend
+        para que a convers\xE3o seja realizada."

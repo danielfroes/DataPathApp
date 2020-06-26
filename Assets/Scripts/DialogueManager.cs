@@ -17,8 +17,8 @@ public struct DialogueBatch
 public class DialogueManager : MonoBehaviour
 {
 
-    [SerializeField] private GameObject NextButton = null;
-    [SerializeField] private GameObject WaitButton = null;
+    public GameObject NextButton = null;
+    public GameObject WaitButton = null;
     public DialogueBatch[] dialogueArray;
     private int dialogueIndex = 0;
     
@@ -35,11 +35,11 @@ public class DialogueManager : MonoBehaviour
     }
     // [SerializeField] private Dialogue[] dialogueArray;
     void Start()
-    {
-        DialogueHandler.instance.StartDialogue(dialogueArray[dialogueIndex].dialogue);
+    {   
         DialogueHandler.instance.OnDialogueEnd += EndDialogue;
         DialogueHandler.instance.OnDialogueStart += StartDialogue;
-    }
+        DialogueHandler.instance.StartDialogue(dialogueArray[dialogueIndex].dialogue);
+    }    
 
     public void EndDialogue()
     {
@@ -48,6 +48,8 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue()
     {
+        TweenControler.instance.UnhighligthAll();
+        TweenControler.instance.PopDownAll();
         dialogueArray[dialogueIndex].onDialogueStart.Invoke();
     }
 
@@ -55,6 +57,7 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueIndex++;
         DialogueHandler.instance.StartDialogue(dialogueArray[dialogueIndex].dialogue);
+        
         if(!NextButton.activeInHierarchy)
         {
             NextButton.SetActive(true);

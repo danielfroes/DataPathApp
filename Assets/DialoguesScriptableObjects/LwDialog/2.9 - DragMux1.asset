@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a1dbd059a692004c8c0ea9bf79ecb6a, type: 3}
+  m_Name: 2.9 - DragMux1
+  m_EditorClassIdentifier: 
+  lines:
+    array:
+    - title: 
+      text: "Como o nosso caminho de dados precisa suportar outros tipos de instru\xE7\xE3o,
+        como as do tipo R, \xE9 necess\xE1rio em alguns momento decidir qual o sinal
+        habilitar ou n\xE3o"
+    - title: 
+      text: "Nesse caso \xE9 necess\xE1rio que o caminho de dados decida qual o sinal
+        deve ser levado para a segunda entrada da ULA, o Dado lido #2 ou a constante."
+    - title: 
+      text: "O componente com a fun\xE7\xE3o de selecionar entre duas entradas \xE9
+        o Multiplexador (ou MUX)"
+    - title: 
+      text: "Arraste o Mux na posi\xE7\xE3o correta para que a sele\xE7\xE3o das
+        entradas seja realizada"
