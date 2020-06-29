@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class TweenControler : MonoBehaviour
 {
 
     private List<GameObject> bufferHighlighted;
-    private List<GameObject> bufferPopup;
-    
+    private List<GameObject> bufferPopup;    
     public static TweenControler instance;
+    public Image TransitionPanel;
 
     // Start is called before the first frame update
     private void Awake() {
@@ -22,6 +23,20 @@ public class TweenControler : MonoBehaviour
             Destroy(this);   
     }
 
+
+    private void Start() {
+        TransitionPanel.gameObject.SetActive(true);
+        TransitionPanel.DOFade(0,1).OnComplete(() =>{
+
+            if(DialogueManager.instance != null)
+                DialogueManager.instance.TriggerInitialDialogue();
+            
+            TransitionPanel.gameObject.SetActive(false);
+        });
+
+    }
+
+    
     // Update is called once per frame
     void Update()
     {
@@ -31,15 +46,20 @@ public class TweenControler : MonoBehaviour
 
     public void HighlightComponent(GameObject component)
     {   
-        component.GetComponent<Image>().DOColor(Color.red, 1f);
         bufferHighlighted.Add(component);
+        component.GetComponent<Image>().DOColor(Color.red, 1f);
     }
 
     public void UnhighlightComponent(GameObject component)
     {
         Color color;
+        
         if(ColorUtility.TryParseHtmlString("#444671", out color))
-            component.GetComponent<Image>().DOColor(color , 0.5f);
+        {
+            Image tmp = component.GetComponent<Image>();
+            tmp.DOKill();
+            tmp.DOColor(color , 0.5f);
+        }
     }
 
     public void PopupComponent(GameObject component)
@@ -58,6 +78,7 @@ public class TweenControler : MonoBehaviour
     public void PopdownComponent(GameObject component)
     {
         component.transform.DOScale(Vector3.zero, 0.5f).OnComplete(()=>component.SetActive(false));
+       
 
     }
 
@@ -100,5 +121,13 @@ public class TweenControler : MonoBehaviour
         }
 
         bufferHighlighted.Clear();
+    }
+
+
+    public void LoadLevel(string name){
+        TransitionPanel.gameObject.SetActive(true);
+        TransitionPanel.DOFade(1,1).OnComplete(() =>{
+            SceneManager.LoadScene(name);
+        });
     }
 }

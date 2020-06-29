@@ -38,8 +38,13 @@ public class DialogueManager : MonoBehaviour
     {   
         DialogueHandler.instance.OnDialogueEnd += EndDialogue;
         DialogueHandler.instance.OnDialogueStart += StartDialogue;
-        DialogueHandler.instance.StartDialogue(dialogueArray[dialogueIndex].dialogue);
     }    
+
+    public void TriggerInitialDialogue()
+    {
+        dialogueIndex = 0;
+        DialogueHandler.instance.StartDialogue(dialogueArray[0].dialogue);
+    }
 
     public void EndDialogue()
     {

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a1dbd059a692004c8c0ea9bf79ecb6a, type: 3}
+  m_Name: 1.4 - DragComponent
+  m_EditorClassIdentifier: 
+  lines:
+    array:
+    - title: 
+      text: "O endere\xE7o da instru\xE7\xE3o \xE9 um n\xFAmero que representa o
+        offset do endere\xE7o da instru\xE7\xE3o atual at\xE9 a desejada"
+    - title: 
+      text: "Ou seja, se queremos, por exemplo, ir para duas instru\xE7\xF5es posteriores,
+        o endere\xE7o passado sera 2"
+    - title: 
+      text: "No contador de programas, entretanto, o contador \xE9 incrementado a
+        cada 4 bits"
+    - title: 
+      text: "Dessa forma \xE9 necess\xE1rio multiplicar o valor do endere\xE7o passado
+        na instru\xE7\xE3o por 4 "
+    - title: 
+      text: "Como o endere\xE7o est\xE1 em bin\xE1rio, multiplicar por 4 \xE9 equivalente
+        a realizar 2 shifts para esquerda"
+    - title: 
+      text: "Insira o componente do shift no local correto para realizar a multiplica\xE7\xE3o
+        no endere\xE7o"

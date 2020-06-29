@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a1dbd059a692004c8c0ea9bf79ecb6a, type: 3}
-  m_Name: 1.13 - End
+  m_Name: 1.6 - HighlightMuxPC
   m_EditorClassIdentifier: 
   lines:
     array:
     - title: 
-      text: "Parab\xE9ns! Dessa maneira, terminamos o caminho de dados da instru\xE7\xE3o
-        add."
+      text: "Em seguida, o sinal resultante do mux (no nosso caso o vindo da instru\xE7\xE3o)
+        \xE9 levado para o contador de programa, dessa forma, realizando o deslocamento."

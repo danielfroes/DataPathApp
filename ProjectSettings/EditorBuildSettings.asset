@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lw.unity
     guid: af9a29def64a10d4597c91395bbc3c22
+  - enabled: 1
+    path: Assets/Scenes/jump.unity
+    guid: 3f7c577b9caeb59458d7186d3d762acc
   m_configObjects: {}
