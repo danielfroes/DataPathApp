@@ -130,9 +130,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 88857205}
+  - component: {fileID: 88857208}
   - component: {fileID: 88857207}
   - component: {fileID: 88857206}
-  - component: {fileID: 88857208}
   m_Layer: 5
   m_Name: "Title - Mem\xF3ria de Instru\xE7\xE3o"
   m_TagString: Untagged
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 13.6
+  m_fontSize: 20.3
   m_fontSizeBase: 21.11
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -375,7 +375,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 13.15
+  m_fontSize: 19.75
   m_fontSizeBase: 16.1
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1363,9 +1363,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 295808356}
+  - component: {fileID: 295808359}
   - component: {fileID: 295808358}
   - component: {fileID: 295808357}
-  - component: {fileID: 295808359}
   m_Layer: 5
   m_Name: Title - Registradores
   m_TagString: Untagged
@@ -1439,7 +1439,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 13.5
+  m_fontSize: 20.75
   m_fontSizeBase: 21.11
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1608,7 +1608,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 11.8
+  m_fontSize: 20.15
   m_fontSizeBase: 16.1
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1849,9 +1849,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 468450193}
+  - component: {fileID: 468450196}
   - component: {fileID: 468450195}
   - component: {fileID: 468450194}
-  - component: {fileID: 468450196}
   m_Layer: 5
   m_Name: Title - Unidade de Controle
   m_TagString: Untagged
@@ -1925,7 +1925,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 13.95
+  m_fontSize: 23.1
   m_fontSizeBase: 21.11
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2161,8 +2161,8 @@ GameObject:
   m_Component:
   - component: {fileID: 501027290}
   - component: {fileID: 501027292}
-  - component: {fileID: 501027291}
   - component: {fileID: 501027293}
+  - component: {fileID: 501027291}
   m_Layer: 5
   m_Name: out - ULAop
   m_TagString: Untagged
@@ -2238,7 +2238,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 15.65
+  m_fontSize: 23.5
   m_fontSizeBase: 16.1
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2331,9 +2331,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 658089364}
+  - component: {fileID: 658089367}
   - component: {fileID: 658089366}
   - component: {fileID: 658089365}
-  - component: {fileID: 658089367}
   m_Layer: 5
   m_Name: Title - Soma
   m_TagString: Untagged
@@ -2407,7 +2407,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 16.05
+  m_fontSize: 27.75
   m_fontSizeBase: 21.11
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2661,7 +2661,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 13.4
+  m_fontSize: 19.75
   m_fontSizeBase: 16.1
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2947,7 +2947,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 47.55
+  m_fontSize: 72.35
   m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3323,10 +3323,10 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 29.05
+  m_fontSize: 45
   m_fontSizeBase: 45
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 100
   m_fontStyle: 0
@@ -3338,9 +3338,9 @@ MonoBehaviour:
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
+  m_wordWrappingRatios: 0.5
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 139
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -3416,9 +3416,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1124358971}
+  - component: {fileID: 1124358974}
   - component: {fileID: 1124358973}
   - component: {fileID: 1124358972}
-  - component: {fileID: 1124358974}
   m_Layer: 5
   m_Name: Title-Datapath
   m_TagString: Untagged
@@ -3492,7 +3492,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 45.75
+  m_fontSize: 71.8
   m_fontSizeBase: 65
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3586,8 +3586,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1179366474}
   - component: {fileID: 1179366476}
-  - component: {fileID: 1179366475}
   - component: {fileID: 1179366477}
+  - component: {fileID: 1179366475}
   m_Layer: 5
   m_Name: out - EscReg
   m_TagString: Untagged
@@ -3661,7 +3661,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 14.2
+  m_fontSize: 21.3
   m_fontSizeBase: 16.1
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3974,7 +3974,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.171, y: 0.07954167}
   m_AnchorMax: {x: 0.82500005, y: 0.89138883}
-  m_AnchoredPosition: {x: -0.35009766, y: 4.5169983}
+  m_AnchoredPosition: {x: -0.35009766, y: 4.516983}
   m_SizeDelta: {x: -0.7002411, y: 9.034088}
   m_Pivot: {x: 0.49999997, y: 0.5}
 --- !u!114 &1292181469
@@ -4111,7 +4111,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 12.45
+  m_fontSize: 18.35
   m_fontSizeBase: 16.1
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4280,7 +4280,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 12.95
+  m_fontSize: 19.2
   m_fontSizeBase: 16.1
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4537,8 +4537,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1649170076}
   - component: {fileID: 1649170078}
-  - component: {fileID: 1649170077}
   - component: {fileID: 1649170079}
+  - component: {fileID: 1649170077}
   m_Layer: 5
   m_Name: out - 4 bits
   m_TagString: Untagged
@@ -4612,7 +4612,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 15.3
+  m_fontSize: 24.65
   m_fontSizeBase: 16.1
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4705,9 +4705,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1676045576}
+  - component: {fileID: 1676045579}
   - component: {fileID: 1676045578}
   - component: {fileID: 1676045577}
-  - component: {fileID: 1676045579}
   m_Layer: 5
   m_Name: 'Title - Contador de program '
   m_TagString: Untagged
@@ -4781,7 +4781,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 11.4
+  m_fontSize: 19.45
   m_fontSizeBase: 21.11
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4950,7 +4950,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 10.6
+  m_fontSize: 18.05
   m_fontSizeBase: 16.1
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5119,7 +5119,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 11.8
+  m_fontSize: 17.15
   m_fontSizeBase: 16.1
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5463,7 +5463,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 12
+  m_fontSize: 17.55
   m_fontSizeBase: 16.1
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5742,7 +5742,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: cbe76a7b436a783408360b9a8e1334f1, type: 3}
   m_Type: 0
-  m_PreserveAspect: 1
+  m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -5836,9 +5836,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2020686523}
+  - component: {fileID: 2020686526}
   - component: {fileID: 2020686525}
   - component: {fileID: 2020686524}
-  - component: {fileID: 2020686526}
   m_Layer: 5
   m_Name: Title - ULA
   m_TagString: Untagged
@@ -5912,7 +5912,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 19.9
+  m_fontSize: 32
   m_fontSizeBase: 21.11
   m_fontWeight: 400
   m_enableAutoSizing: 1
